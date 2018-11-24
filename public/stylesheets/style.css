@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #000;
+  background: #e3e3e3;
+  display: inline;
+  margin: 12px 12px 12px 0;
+  padding: 8px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px;
+  width: 200px;
+  height: 26px; }
+
+h2 {
+  width: 100%; }
+
+.cat {
+  max-height: 320px;
+  object-fit: contain;
+  margin-right: 20px; }
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between; }
+
+.counter {
+  width: 100%; }
+
+.server-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: space-between; }
+
+/*# sourceMappingURL=style.css.map */

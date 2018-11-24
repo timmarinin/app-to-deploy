@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Привет, это «#{title}»
+  p Можно понажимать разные кнопки!
+  .grid
+    img.cat(src="/images/cat.jpg")
+    .server-info
+      h2 Информация о приложении
+      .started-at
+        | Приложение работает с #{started_at}
+      .counter Значение счётчика #{counter}
+      a.kill(href="/kill")
+        | Убить приложение
+      a.increment(href="/increment")
+        | Увеличить счётчик
+      a.get-error(href="/500")
+        | Получить пятисотку
